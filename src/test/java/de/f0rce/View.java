@@ -135,16 +135,16 @@ public class View extends VerticalLayout implements AppShellConfigurator {
 
     aceEditor.addSelectionChangeListener(
         event -> {
-          System.out.println(
-              event.getSelection().getStartColumn()
-                  + " "
-                  + event.getSelection().getEndColumn()
-                  + " "
-                  + event.getSelection().getStartRow()
-                  + " "
-                  + event.getSelection().getEndRow());
-          System.out.println(
-              event.getCursorPosition().getColumn() + " " + event.getCursorPosition().getRow());
+//          System.out.println(
+//              event.getSelection().getStartColumn()
+//                  + " "
+//                  + event.getSelection().getEndColumn()
+//                  + " "
+//                  + event.getSelection().getStartRow()
+//                  + " "
+//                  + event.getSelection().getEndRow());
+//          System.out.println(
+//              event.getCursorPosition().getColumn() + " " + event.getCursorPosition().getRow());
         });
     //
     //		aceEditor.addFocusListener(e -> {
@@ -207,7 +207,7 @@ public class View extends VerticalLayout implements AppShellConfigurator {
 
     aceEditor.addHTMLGeneratedListener(
         event -> {
-          System.out.println(event.getHTML());
+//          System.out.println(event.getHTML());
         });
 
     aceDialog.setHeight("1000px");

@@ -45,8 +45,8 @@ import de.f0rce.ace.util.AceStaticWordCompleter;
 /** @author David "F0rce" Dodlek */
 @SuppressWarnings("serial")
 @Tag("lit-ace")
-@NpmPackage(value = "@f0rce/lit-ace", version = "1.11.1")
-@JsModule("./@f0rce/lit-ace/lit-ace.js")
+@NpmPackage(value = "@fiposv2/lit-ace", version = "1.0.1")
+@JsModule("./@fiposv2/lit-ace/lit-ace.js")
 public class AceEditor extends Component implements HasSize, HasStyle, Focusable<AceEditor> {
 
   public static final String DEFAULT_STATIC_CATEGORY = "keyword";

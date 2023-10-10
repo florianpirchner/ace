@@ -2,7 +2,7 @@
   "name": "no-name",
   "license": "UNLICENSED",
   "dependencies": {
-    "@f0rce/lit-ace": "1.11.1",
+    "@fiposv2/lit-ace": "1.0.1",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-iconset-svg": "3.0.1",
     "@polymer/iron-list": "3.1.0",
@@ -21,6 +21,7 @@
     "@vaadin/common-frontend": "0.0.17",
     "@vaadin/component-base": "23.1.6",
     "@vaadin/context-menu": "23.1.6",
+    "@vaadin/cookie-consent": "23.1.6",
     "@vaadin/custom-field": "23.1.6",
     "@vaadin/date-picker": "23.1.6",
     "@vaadin/date-time-picker": "23.1.6",
@@ -66,6 +67,7 @@
     "@vaadin/vaadin-checkbox": "23.1.6",
     "@vaadin/vaadin-combo-box": "23.1.6",
     "@vaadin/vaadin-context-menu": "23.1.6",
+    "@vaadin/vaadin-cookie-consent": "23.1.6",
     "@vaadin/vaadin-custom-field": "23.1.6",
     "@vaadin/vaadin-date-picker": "23.1.6",
     "@vaadin/vaadin-date-time-picker": "23.1.6",
@@ -130,7 +132,7 @@
   },
   "vaadin": {
     "dependencies": {
-      "@f0rce/lit-ace": "1.11.1",
+      "@fiposv2/lit-ace": "1.0.1",
       "@polymer/iron-icon": "3.0.1",
       "@polymer/iron-iconset-svg": "3.0.1",
       "@polymer/iron-list": "3.1.0",
@@ -149,6 +151,7 @@
       "@vaadin/common-frontend": "0.0.17",
       "@vaadin/component-base": "23.1.6",
       "@vaadin/context-menu": "23.1.6",
+      "@vaadin/cookie-consent": "23.1.6",
       "@vaadin/custom-field": "23.1.6",
       "@vaadin/date-picker": "23.1.6",
       "@vaadin/date-time-picker": "23.1.6",
@@ -193,6 +196,7 @@
       "@vaadin/vaadin-checkbox": "23.1.6",
       "@vaadin/vaadin-combo-box": "23.1.6",
       "@vaadin/vaadin-context-menu": "23.1.6",
+      "@vaadin/vaadin-cookie-consent": "23.1.6",
       "@vaadin/vaadin-custom-field": "23.1.6",
       "@vaadin/vaadin-date-picker": "23.1.6",
       "@vaadin/vaadin-date-time-picker": "23.1.6",
@@ -255,7 +259,7 @@
       "workbox-precaching": "6.5.0",
       "workbox-webpack-plugin": "6.5.0"
     },
-    "hash": "129ce91624e06f316c7dcfde5d2500c6514063a79aa88fdc1d70f3cb4449ea91"
+    "hash": "843d03cf82596760120d5290bf0c6e81e72018337b0120d6cfc39d5a9e88c267"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -357,6 +361,10 @@
     "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
     "lit": "$lit",
     "@polymer/polymer": "$@polymer/polymer",
-    "chokidar": "$chokidar"
+    "chokidar": "$chokidar",
+    "@fiposv2/lit-ace": "$@fiposv2/lit-ace",
+    "date-fns": "$date-fns",
+    "@vaadin/cookie-consent": "$@vaadin/cookie-consent",
+    "@vaadin/vaadin-cookie-consent": "$@vaadin/vaadin-cookie-consent"
   }
 }
